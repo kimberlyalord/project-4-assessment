@@ -1,8 +1,10 @@
 import React from 'react';
 import './Circles.css';
 
-const Circles = (props) => (
-  <p>Circles</p>
-);
+function Circles() {
+  return (
+    <p>Circles</p>
+  );
+}
 
 export default Circles;
