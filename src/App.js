@@ -3,8 +3,6 @@ import './App.css';
 import CircleSelector from './components/CircleSelector';
 import Circles from './components/Circles';
 
-const circles = [1, 2, 3, 4];
-
 class App extends Component {
   constructor() {
     super();
