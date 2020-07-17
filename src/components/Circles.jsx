@@ -1,9 +1,17 @@
 import React from 'react';
 import './Circles.css';
 
-function Circles() {
+const circles = [1, 2, 3, 4];
+
+function Circles(props) {
   return (
-    <p>Circles</p>
+    <div className='Circles'>
+      {props.circles.map((circle, idx) =>
+        <div className={props.selectedCircleIdx === circles[idx] - 1 ? 'selected' : ''}>
+        {circles[idx]}
+        </div>
+      )}
+    </div>
   );
 }
 

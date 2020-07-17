@@ -4,7 +4,6 @@ import './CircleSelector.css';
 const circles = [1, 2, 3, 4];
 
 function CircleSelector(props) {
-  console.log(props);
   return (
     <div className='CircleSelector'>
       {props.circles.map((circle, idx) =>

@@ -34,7 +34,10 @@ class App extends Component {
             selectedCircleIdx={this.state.selectedCircleIdx}
             handleCircleSelection={this.handleCircleSelection} 
           />
-          <Circles circles={this.state.circles} />
+          <Circles 
+            circles={this.state.circles}             
+            selectedCircleIdx={this.state.selectedCircleIdx}
+          />
         </main>
       </div>
     );
